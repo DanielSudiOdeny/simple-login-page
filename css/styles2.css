@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(226, 246, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.songs-list-container {
+    background-color: rgb(93, 179, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    border-radius: 10px;
+}
+
+ol {
+    border-radius: 10px;
+    padding: 70px;
+
+}
+
+li {
+    font-size: 1.5rem;
+ 
+}
+
+.home-btn {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    width: 130px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-btn:hover {
+    background-color: #fff;
+    color: rgb(45, 45, 45);
+}
